@@ -25,7 +25,7 @@ docker pull mongodb:7.0
 - [MongoDB Compass GUI](https://www.mongodb.com/products/tools/compass)
 
 
-## Bash
+## Using Bash command
 
 ```
 docker run -d --name mongo-demo -p 12345:27017 -v mongodemo:/data/db mongo:7.0
@@ -33,7 +33,7 @@ docker run -d --name mongo-demo -p 12345:27017 -v mongodemo:/data/db mongo:7.0
 
 ## Using docker-compose
 
-Change directory to current directory `~/.../mongodb-local-docker`
+Change to current directory `~/.../mongodb-local-docker`
 
 ```
 cd mongodb-local-docker
