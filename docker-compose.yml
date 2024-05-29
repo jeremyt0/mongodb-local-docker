@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo:7.0
+    environment:
+      MONGO_INIT_DB_ROOT_USERNAME: mongoadmin
+      MONGO_INIT_DB_ROOT_PASSWORD: mypassword123
+    ports:
+      - 12345:27017
+    volumes:
+      - mongodata:/data/db
+volumes:
+  mongodata:
+    driver: local
+
