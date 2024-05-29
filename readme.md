@@ -10,10 +10,10 @@ docker run -d --name mongo-demo -p 12345:27017 -v mongodemo:/data/db mongo:7.0
 
 ## Using docker-compose
 
-Change directory to current directory `~/.../david-mongo`
+Change directory to current directory `~/.../mongodb-local-docker`
 
 ```
-cd david-mongo
+cd mongodb-local-docker
 docker compose up
 ```
 
